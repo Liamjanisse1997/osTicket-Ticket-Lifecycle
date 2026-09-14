@@ -27,26 +27,43 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Ticket 1 — Online Banking Down
+Create the ticket as an end-user:
+Log in as an end-user, create a new ticket, and enter “entire mobile/online banking system is down” as the issue.
+Observe the ticket properties as john:
+Log in to the Agent Panel as john, open the ticket, and review its Priority, Department, SLA, and Assigned To fields without changing them.
+Set the ticket properties:
+Change the ticket’s Priority to Sev-A (1 hour, 24/7) and Department to Online Banking Department; save the changes.
+Attempt to observe/change the ticket again as john:
+Switch back to john and reopen the ticket to see whether he can still view or modify it after the department change. The ticket should become inaccessible or restricted if john does not have access to the Online Banking Department.
+Work the ticket to completion as jane:
+Log in as jane, who has access to the appropriate department, open the ticket, respond to the user, document the resolution, and change the ticket status to Closed/Solved.
+Ticket 2 — Adobe Upgrade
+Create the ticket as an end-user:
+Log in as an end-user and create a ticket stating “accounting department needs adobe upgrade, broken.”
+Observe the ticket properties as john:
+As john in the Agent Panel, open the ticket and record the current Priority, Department, SLA, and Assigned To values.
+Set the ticket properties:
+Set the ticket to Sev-B (4 hours, 24/7) and assign it to the Support department, then save the changes.
+Work the ticket to completion as john:
+As john, troubleshoot or document the Adobe upgrade issue, communicate the resolution to the end-user, and mark the ticket Closed/Solved when finished.
+Ticket 3 — CFO Laptop
+Create the ticket as an end-user:
+Create a new end-user ticket with the issue “CFO’s laptop will no longer turn on.”
+Observe the ticket properties as john:
+Log in as john and open the ticket to review its Priority, Department, SLA, and Assigned To information.
+Set the ticket properties:
+Change the ticket to Sev-B (4 hours, 24/7) and assign it to the Support department, then save the ticket.
+Work the ticket to completion as john:
+As john, troubleshoot the laptop issue or document the required repair/escalation, communicate with the user, and mark the ticket Closed/Solved after resolution.
+Escalating All Tickets
+Set properties to all tickets:
+Update all tickets to Sev-A, completing the SysAdmins ticket last, so you can observe how the department permissions affect access after escalation.
+Observe the escalated ticket:
+Switch to the Admin Panel, give yourself View access to Sys Admins, then return to the Agent Panel and open the escalated ticket to verify that you can now see it.
+Observe that you cannot make changes:
+Confirm that although you can view the SysAdmins ticket, you do not have the necessary permissions to modify or update it.
+Solve all tickets:
+Work through each remaining ticket, provide/document the appropriate resolution, communicate the outcome to the requester, and mark each ticket as Solved/Closed.
+Explain ticket email capability:
+Most ticketing systems, including osTicket, can send email notifications whenever a ticket is created or updated, allowing the end-user to receive the response and reply directly to the ticket.
