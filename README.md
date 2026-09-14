@@ -53,8 +53,12 @@ Set the ticket properties:
  <img width="410" height="115" alt="11_ticket3_observe_john" src="https://github.com/user-attachments/assets/5a50290d-a2b2-4acd-90eb-3e2eb080f604" />
 
 5. Switch back to john and reopen the ticket to see whether he can still view or modify it after the department change. The ticket should become inaccessible or restricted if john does not have access to the Online Banking Department.
-6. Work the ticket to completion as jane:
-7. Log in as jane, who has access to the appropriate department, open the ticket, respond to the user, document the resolution, and change the ticket status to Closed/Solved.
+ <img width="405" height="75" alt="04_ticket1_access_denied_john" src="https://github.com/user-attachments/assets/d3f20dbb-3b84-4924-9fec-ecec66a0e052" />
+
+7. Work the ticket to completion as jane:
+8. Log in as jane, who has access to the appropriate department, open the ticket, respond to the user, document the resolution, and change the ticket status to Closed/Solved.
+ <img width="405" height="110" alt="05_ticket1_complete_jane" src="https://github.com/user-attachments/assets/6d149c1c-0de5-4673-9600-d4ca2e43cddf" />
+
 
 
 
