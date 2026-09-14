@@ -46,12 +46,12 @@ Set the ticket properties:
 
 Ticket 2 — Adobe Upgrade
 1.Create the ticket as an end-user:
-2. Log in as an end-user and create a ticket stating “accounting department needs adobe upgrade, broken.”
+ Log in as an end-user and create a ticket stating “accounting department needs adobe upgrade, broken.”
 3. Observe the ticket properties as john:
-4. As john in the Agent Panel, open the ticket and record the current Priority, Department, SLA, and Assigned To values.
-5. Set the ticket properties:
-6. Set the ticket to Sev-B (4 hours, 24/7) and assign it to the Support department, then save the changes.
-7. Work the ticket to completion as john:
+ As john in the Agent Panel, open the ticket and record the current Priority, Department, SLA, and Assigned To values.
+4. Set the ticket properties:
+ Set the ticket to Sev-B (4 hours, 24/7) and assign it to the Support department, then save the changes.
+5. Work the ticket to completion as john:
 As john, troubleshoot or document the Adobe upgrade issue, communicate the resolution to the end-user, and mark the ticket Closed/Solved when finished.
 
 
