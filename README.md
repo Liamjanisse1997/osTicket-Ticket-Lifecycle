@@ -52,11 +52,11 @@ Set the ticket properties:
 2. Attempt to observe/change the ticket again as john:
  <img width="410" height="115" alt="11_ticket3_observe_john" src="https://github.com/user-attachments/assets/5a50290d-a2b2-4acd-90eb-3e2eb080f604" />
 
-5. Switch back to john and reopen the ticket to see whether he can still view or modify it after the department change. The ticket should become inaccessible or restricted if john does not have access to the Online Banking Department.
+3. Switch back to john and reopen the ticket to see whether he can still view or modify it after the department change. The ticket should become inaccessible or restricted if john does not have access to the Online Banking Department.
  <img width="405" height="75" alt="04_ticket1_access_denied_john" src="https://github.com/user-attachments/assets/d3f20dbb-3b84-4924-9fec-ecec66a0e052" />
 
-7. Work the ticket to completion as jane:
-8. Log in as jane, who has access to the appropriate department, open the ticket, respond to the user, document the resolution, and change the ticket status to Closed/Solved.
+4. Work the ticket to completion as jane:
+5. Log in as jane, who has access to the appropriate department, open the ticket, respond to the user, document the resolution, and change the ticket status to Closed/Solved.
  <img width="405" height="110" alt="05_ticket1_complete_jane" src="https://github.com/user-attachments/assets/6d149c1c-0de5-4673-9600-d4ca2e43cddf" />
 
 
@@ -66,15 +66,23 @@ Ticket 2 — Adobe Upgrade
 
 1. Create the ticket as an end-user:
  Log in as an end-user and create a ticket stating “accounting department needs adobe upgrade, broken.”
+<img width="410" height="170" alt="10_ticket3_create_end_user" src="https://github.com/user-attachments/assets/830cc33b-b0b3-436d-a8ae-837404b65239" />
+
  
 2. Observe the ticket properties as john:
  As john in the Agent Panel, open the ticket and record the current Priority, Department, SLA, and Assigned To values.
+<img width="410" height="115" alt="07_ticket2_observe_john" src="https://github.com/user-attachments/assets/b2607ad0-a0e1-4127-ac0a-02f6f044ea2c" />
 
-3. Set the ticket properties:
+
+4. Set the ticket properties:
  Set the ticket to Sev-B (4 hours, 24/7) and assign it to the Support department, then save the changes.
+<img width="410" height="145" alt="12_ticket3_set_properties" src="https://github.com/user-attachments/assets/f4d2b157-9e1f-4308-91d3-0808f70bbc32" />
 
-4. Work the ticket to completion as john:
+
+6. Work the ticket to completion as john:
 As john, troubleshoot or document the Adobe upgrade issue, communicate the resolution to the end-user, and mark the ticket Closed/Solved when finished.
+<img width="410" height="140" alt="09_ticket2_complete_john" src="https://github.com/user-attachments/assets/23c729e1-296f-4677-a66b-8513cbd2e6cd" />
+
 
 
 
