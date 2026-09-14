@@ -13,7 +13,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
-
+- osTicket inside AZure VM (Virtual Machine)
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
@@ -29,9 +29,11 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 Ticket 1 — Online Banking Down
 1. Create the ticket as an end-user:
+ <img width="405" height="170" alt="01_ticket1_create_end_user" src="https://github.com/user-attachments/assets/23b86282-9647-4d09-b1f2-aa2759fee84c" />
+
 2. Log in as an end-user, create a new ticket, and enter “entire mobile/online banking system is down” as the issue.
-3. Observe the ticket properties as john:
-4. Log in to the Agent Panel as john, open the ticket, and review its Priority, Department, SLA, and Assigned To fields without changing them.
+4. Observe the ticket properties as john:
+5. Log in to the Agent Panel as john, open the ticket, and review its Priority, Department, SLA, and Assigned To fields without changing them.
 
 
 
@@ -46,7 +48,7 @@ Set the ticket properties:
 
 Ticket 2 — Adobe Upgrade
 
-1.Create the ticket as an end-user:
+1. Create the ticket as an end-user:
  Log in as an end-user and create a ticket stating “accounting department needs adobe upgrade, broken.”
  
 2. Observe the ticket properties as john:
