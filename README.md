@@ -43,12 +43,18 @@ Ticket 1 — Online Banking Down
 
 
 
+
 Set the ticket properties:
+
 1. Change the ticket’s Priority to Sev-A (1 hour, 24/7) and Department to Online Banking Department; save the changes.
+ <img width="410" height="145" alt="08_ticket2_set_properties" src="https://github.com/user-attachments/assets/57b52102-5c9f-47d0-b3cf-bd3a698c314a" />
+
 2. Attempt to observe/change the ticket again as john:
-3. Switch back to john and reopen the ticket to see whether he can still view or modify it after the department change. The ticket should become inaccessible or restricted if john does not have access to the Online Banking Department.
-4. Work the ticket to completion as jane:
-5. Log in as jane, who has access to the appropriate department, open the ticket, respond to the user, document the resolution, and change the ticket status to Closed/Solved.
+ <img width="410" height="115" alt="11_ticket3_observe_john" src="https://github.com/user-attachments/assets/5a50290d-a2b2-4acd-90eb-3e2eb080f604" />
+
+5. Switch back to john and reopen the ticket to see whether he can still view or modify it after the department change. The ticket should become inaccessible or restricted if john does not have access to the Online Banking Department.
+6. Work the ticket to completion as jane:
+7. Log in as jane, who has access to the appropriate department, open the ticket, respond to the user, document the resolution, and change the ticket status to Closed/Solved.
 
 
 
