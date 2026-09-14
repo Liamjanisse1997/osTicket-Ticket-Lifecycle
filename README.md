@@ -45,6 +45,7 @@ Set the ticket properties:
 
 
 Ticket 2 — Adobe Upgrade
+
 1.Create the ticket as an end-user:
  Log in as an end-user and create a ticket stating “accounting department needs adobe upgrade, broken.”
 3. Observe the ticket properties as john:
