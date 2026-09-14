@@ -32,7 +32,11 @@ Ticket 1 — Online Banking Down
  <img width="405" height="170" alt="01_ticket1_create_end_user" src="https://github.com/user-attachments/assets/23b86282-9647-4d09-b1f2-aa2759fee84c" />
 
 2. Log in as an end-user, create a new ticket, and enter “entire mobile/online banking system is down” as the issue.
-4. Observe the ticket properties as john:
+ <img width="405" height="115" alt="02_ticket1_observe_john" src="https://github.com/user-attachments/assets/fa41c7be-d967-4c6c-b74b-51eb29ff03a9" />
+
+3. Observe the ticket properties as john:
+ <img width="405" height="145" alt="03_ticket1_set_properties" src="https://github.com/user-attachments/assets/3e280d27-3455-4dca-8305-d098ee088a88" />
+
 5. Log in to the Agent Panel as john, open the ticket, and review its Priority, Department, SLA, and Assigned To fields without changing them.
 
 
