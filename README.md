@@ -28,17 +28,16 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 Ticket 1 — Online Banking Down
-1. Create the ticket as an end-user:
- <img width="405" height="170" alt="01_ticket1_create_end_user" src="https://github.com/user-attachments/assets/23b86282-9647-4d09-b1f2-aa2759fee84c" />
+1. Log in as an end-user, create a new ticket, and enter “entire mobile/online banking system is down” as the issue.
+ <img width="405" height="170" alt="01_ticket1_create_end_user" src="https://github.com/user-attachments/assets/c28bbd21-c4c7-49cd-96ac-7a68bd33c3d2" />
 
-2. Log in as an end-user, create a new ticket, and enter “entire mobile/online banking system is down” as the issue.
- <img width="405" height="115" alt="02_ticket1_observe_john" src="https://github.com/user-attachments/assets/fa41c7be-d967-4c6c-b74b-51eb29ff03a9" />
 
-3. Observe the ticket properties as john:
- <img width="405" height="145" alt="03_ticket1_set_properties" src="https://github.com/user-attachments/assets/3e280d27-3455-4dca-8305-d098ee088a88" />
+2. Observe the ticket properties as john:
+ <img width="405" height="115" alt="02_ticket1_observe_john" src="https://github.com/user-attachments/assets/827cb267-5f78-4348-85d8-546180825c8d" />
 
-5. Log in to the Agent Panel as john, open the ticket, and review its Priority, Department, SLA, and Assigned To fields without changing them.
- <img width="405" height="75" alt="04_ticket1_access_denied_john" src="https://github.com/user-attachments/assets/766a9a80-c7b1-4d9e-bf0d-f5e19534a8dd" />
+ 3. Log in to the Agent Panel as john, open the ticket, and review its Priority, Department, SLA, and Assigned To fields without changing them.
+ <img width="405" height="115" alt="02_ticket1_observe_john" src="https://github.com/user-attachments/assets/827cb267-5f78-4348-85d8-546180825c8d" />
+ 
 
 
 
@@ -47,7 +46,8 @@ Ticket 1 — Online Banking Down
 Set the ticket properties:
 
 1. Change the ticket’s Priority to Sev-A (1 hour, 24/7) and Department to Online Banking Department; save the changes.
- <img width="410" height="145" alt="08_ticket2_set_properties" src="https://github.com/user-attachments/assets/57b52102-5c9f-47d0-b3cf-bd3a698c314a" />
+<img width="405" height="145" alt="03_ticket1_set_properties" src="https://github.com/user-attachments/assets/7f78dacc-347c-4e58-bcec-57ee06887a8f" />
+
 
 2. Attempt to observe/change the ticket again as john:
  <img width="410" height="115" alt="11_ticket3_observe_john" src="https://github.com/user-attachments/assets/5a50290d-a2b2-4acd-90eb-3e2eb080f604" />
@@ -74,12 +74,12 @@ Ticket 2 — Adobe Upgrade
 <img width="410" height="115" alt="07_ticket2_observe_john" src="https://github.com/user-attachments/assets/b2607ad0-a0e1-4127-ac0a-02f6f044ea2c" />
 
 
-4. Set the ticket properties:
+3. Set the ticket properties:
  Set the ticket to Sev-B (4 hours, 24/7) and assign it to the Support department, then save the changes.
 <img width="410" height="145" alt="12_ticket3_set_properties" src="https://github.com/user-attachments/assets/f4d2b157-9e1f-4308-91d3-0808f70bbc32" />
 
 
-6. Work the ticket to completion as john:
+4. Work the ticket to completion as john:
 As john, troubleshoot or document the Adobe upgrade issue, communicate the resolution to the end-user, and mark the ticket Closed/Solved when finished.
 <img width="410" height="140" alt="09_ticket2_complete_john" src="https://github.com/user-attachments/assets/23c729e1-296f-4677-a66b-8513cbd2e6cd" />
 
@@ -90,20 +90,27 @@ As john, troubleshoot or document the Adobe upgrade issue, communicate the resol
 Escalating All Tickets
 1. Set properties to all tickets:
 Update all tickets to Sev-A, completing the SysAdmins ticket last, so you can observe how the department permissions affect access after escalation.
+
 <img width="205" height="220" alt="14_escalation_set_all_seva" src="https://github.com/user-attachments/assets/85a46d21-bb61-42dd-9432-10f1a2855698" />
 
 2.. Observe the escalated ticket:
 Switch to the Admin Panel, give yourself View access to Sys Admins, then return to the Agent Panel and open the escalated ticket to verify that you can now see it.
+
 <img width="210" height="220" alt="15_escalation_admin_view_sysadmins" src="https://github.com/user-attachments/assets/62b0aff2-f827-4838-be09-ae0cc8852124" />
+
 
 3.Observe that you cannot make changes:
 Confirm that although you can view the SysAdmins ticket, you do not have the necessary permissions to modify or update it.
+
 <img width="205" height="220" alt="17_escalation_cannot_make_changes" src="https://github.com/user-attachments/assets/70fb6daa-6c0e-412a-ab63-fd8bb5af7c7a" />
+
 
 4. Solve all tickets:
 Work through each remaining ticket, provide/document the appropriate resolution, communicate the outcome to the requester, and mark each ticket as Solved/Closed.
+
 <img width="210" height="220" alt="18_solve_all_tickets" src="https://github.com/user-attachments/assets/e2ef7faf-eacf-4405-aae2-b93e2cf46dd9" />
 
-5. Explain ticket email capability:
+
+6. Explain ticket email capability:
 Most ticketing systems, including osTicket, can send email notifications whenever a ticket is created or updated, allowing the end-user to receive the response and reply directly to the ticket.
 <img width="200" height="220" alt="19_email_capability" src="https://github.com/user-attachments/assets/027b7344-0169-49c6-ac74-51d507113a14" />
