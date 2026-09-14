@@ -38,6 +38,8 @@ Ticket 1 — Online Banking Down
  <img width="405" height="145" alt="03_ticket1_set_properties" src="https://github.com/user-attachments/assets/3e280d27-3455-4dca-8305-d098ee088a88" />
 
 5. Log in to the Agent Panel as john, open the ticket, and review its Priority, Department, SLA, and Assigned To fields without changing them.
+ <img width="405" height="75" alt="04_ticket1_access_denied_john" src="https://github.com/user-attachments/assets/766a9a80-c7b1-4d9e-bf0d-f5e19534a8dd" />
+
 
 
 
