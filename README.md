@@ -86,26 +86,24 @@ As john, troubleshoot or document the Adobe upgrade issue, communicate the resol
 
 
 
-Ticket 3 — CFO Laptop
-The ticket as an end-user:
-1. Create a new end-user ticket with the issue “CFO’s laptop will no longer turn on.”
-Observe the ticket properties as john:
-2. Log in as john and open the ticket to review its Priority, Department, SLA, and Assigned To information.
-3. Set the ticket properties:
-Change the ticket to Sev-B (4 hours, 24/7) and assign it to the Support department, then save the ticket.
-4. Work the ticket to completion as john:
-5. As john, troubleshoot the laptop issue or document the required repair/escalation, communicate with the user, and mark the ticket Closed/Solved after resolution.
-
-
 
 Escalating All Tickets
 1. Set properties to all tickets:
 Update all tickets to Sev-A, completing the SysAdmins ticket last, so you can observe how the department permissions affect access after escalation.
-2. Observe the escalated ticket:
+<img width="205" height="220" alt="14_escalation_set_all_seva" src="https://github.com/user-attachments/assets/85a46d21-bb61-42dd-9432-10f1a2855698" />
+
+2.. Observe the escalated ticket:
 Switch to the Admin Panel, give yourself View access to Sys Admins, then return to the Agent Panel and open the escalated ticket to verify that you can now see it.
-3. Observe that you cannot make changes:
+<img width="210" height="220" alt="15_escalation_admin_view_sysadmins" src="https://github.com/user-attachments/assets/62b0aff2-f827-4838-be09-ae0cc8852124" />
+
+3.Observe that you cannot make changes:
 Confirm that although you can view the SysAdmins ticket, you do not have the necessary permissions to modify or update it.
+<img width="205" height="220" alt="17_escalation_cannot_make_changes" src="https://github.com/user-attachments/assets/70fb6daa-6c0e-412a-ab63-fd8bb5af7c7a" />
+
 4. Solve all tickets:
 Work through each remaining ticket, provide/document the appropriate resolution, communicate the outcome to the requester, and mark each ticket as Solved/Closed.
+<img width="210" height="220" alt="18_solve_all_tickets" src="https://github.com/user-attachments/assets/e2ef7faf-eacf-4405-aae2-b93e2cf46dd9" />
+
 5. Explain ticket email capability:
 Most ticketing systems, including osTicket, can send email notifications whenever a ticket is created or updated, allowing the end-user to receive the response and reply directly to the ticket.
+<img width="200" height="220" alt="19_email_capability" src="https://github.com/user-attachments/assets/027b7344-0169-49c6-ac74-51d507113a14" />
